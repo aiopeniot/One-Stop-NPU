@@ -4,14 +4,7 @@
 
 ---
 
-## ⚖️ 公开资料与合规声明 (Public Information Disclaimer)
-
-1. **严格公开来源**：本项目中所有架构、硬件规格、源码解析、性能数据与技术指南，完全来源于厂商官方公开文档及开发者公开发布内容。
-2. **非保密 (Non-NDA)**：本项目严禁且绝不包含任何受 NDA（保密协议）限制的未公开规格、专有数据或敏感内部工程物料。
-3. **社区中立**：本项目为独立开源社区倡议，所引用的商标与官方链接归各自厂商所有。
-
-详细公开信息来源清单请参阅 [公开资料声明与来源归档](docs/disclaimer.md)。
-
+## ⚖️ [公开资料与合规声明 (Public Information Disclaimer)](docs/disclaimer.md)
 ---
 
 ## 🎯 首发聚焦：Intel NPU 平台矩阵
@@ -28,11 +21,6 @@
 
 ## 💡 核心知识模块速览
 
-- 📦 [硬件规格对比 (Specs Matrix)](docs/specifications/compare-matrix.md)：各大平台 TOPS、位宽支持与功耗速查。
-- 🏆 [BKC 黄金环境配置 (Best Known Configurations)](docs/deployment-bkc/intel-bkc-matrix.md)：验证通过的 OS、内核版本、固件与 SDK 组合。
-- 🛠️ [BKM 调优最佳实践 (Best Known Methods)](docs/optimization-bkm/)：量化选型、内存零拷贝、算子回退排查。
-- 📊 [调试与性能度量 (Profiling & Tools)](docs/profiling-tools/)：驱动监控、指标解读与瓶颈诊断（含 `nputop`、sysfs 剖析）。
-- 💡 [端侧端到端实操 (Case Studies)](docs/case-studies/)：轻量化大语言模型、端侧视觉模型真机推理。
 
 ---
 
