@@ -18,12 +18,12 @@
 
 **Intel NPU**（Core Ultra 系列）从驱动到底层算子的完整工程链路：
 
-| 平台代号 | 典型代表 / 产品系列 | NPU 代际 | 架构与微结构亮点 | 公开算力 (TOPS) | 核心驱动与软件栈 |
+| 平台代号 | 典型代表 | NPU 代际 | 架构与微结构亮点 | 公开算力 (TOPS) | 核心驱动与软件栈 |
 |---|---|---|---|---|---|
-| **Meteor Lake (MTL)** | Core Ultra 100 系列 | **NPU 3720** | 2x NCE, 专用 Scratchpad SRAM, 独立 DMA 引擎 | ~10 - 11.5 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
-| **Arrow Lake (ARL)** | Core Ultra 200S / 200H 系列 | **NPU 3720 变体** | 桌面级与性能移动端优化，沿用成熟 NPU 3 架构 | ~13 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
-| **Lunar Lake (LNL)** | Core Ultra 200V 系列 | **NPU 4000** | 扩展计算阵列 (6x NCE)，集成更大本地带宽与增强型向量单元 | 40 - 48 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
-| **Panther Lake (PTL)** | Core Ultra 300 系列 | **NPU 5000 (NPU 5)** | 全新 NPU 5 架构，算子吞吐进一步翻倍，强化端侧 Generative AI / Transformer 硬件加速 | ~50+ TOPS (INT8) | Linux NPU Driver /  OpenVINO |
+| Meteor Lake (MTL) | Core Ultra 100 系列 | NPU 3720 | 2x NCE, 专用 Scratchpad SRAM, 独立 DMA 引擎 | ~10 - 11.5 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
+| Arrow Lake (ARL) | Core Ultra 200S / 200H 系列 | NPU 3720 变体 | 桌面级与性能移动端优化，沿用成熟 NPU 3 架构 | ~13 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
+| Lunar Lake (LNL) | Core Ultra 200V 系列 | NPU 4000 | 扩展计算阵列 (6x NCE)，集成更大本地带宽与增强型向量单元 | 40 - 48 TOPS (INT8) | `linux-npu-driver`, OpenVINO |
+| Panther Lake (PTL) | Core Ultra 300 系列 | NPU 5000 | 全新 NPU 5 架构，算子吞吐进一步翻倍，强化端侧 Generative AI / Transformer 硬件加速 | ~50+ TOPS (INT8) | Linux NPU Driver /  OpenVINO |
 ---
 
 ## 💡 核心知识模块速览
